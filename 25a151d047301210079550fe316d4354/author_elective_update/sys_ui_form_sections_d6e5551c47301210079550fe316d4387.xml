@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="d6e5551c47301210079550fe316d4387" sys_domain="global" table="x_1527610_hrm_hr_tickets" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1527610_hrm_hr_tickets</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-18 08:19:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6e5551c47301210079550fe316d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1527610_hrm_hr_tickets</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d6e5551c47301210079550fe316d4387</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-18 08:19:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HRM">25a151d047301210079550fe316d4354</application>
+        <file_path/>
+        <instance_id>889a0239dba6fd5c39639027c59619a8</instance_id>
+        <instance_name>dev214635</instance_name>
+        <name>sys_ui_form_sections_d6e5551c47301210079550fe316d4387</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="d6e5551c47301210079550fe316d4387" sys_domain="global" table="x_1527610_hrm_hr_tickets" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1527610_hrm_hr_tickets</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 08:19:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6e5551c47301210079550fe316d4387</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1527610_hrm_hr_tickets</sys_name><sys_overrides/><sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package><sys_policy/><sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope><sys_update_name>sys_ui_form_sections_d6e5551c47301210079550fe316d4387</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 08:19:45</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>641722012</payload_hash>
+        <record_name>HR Tickets</record_name>
+        <reverted_from/>
+        <source>21a151d047301210079550fe316d4358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 06:53:16</sys_created_on>
+        <sys_id>91bbca2447b01210079550fe316d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192090e7a620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 06:53:16</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>d5bbca24cdb01210aecda38bfe405692</update_guid>
+        <update_guid_history>d5bbca24cdb01210aecda38bfe405692:641722012,804b51d05d7012103fd5780536d1a7d2:393539138,6ee5551c19301210caeeddc34e01db8c:-214377975,dee5551c6c3012109b7f52c3e2741d88:641722012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:24:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>245cff3a43c245c9a0a1eaab998f29d9</sys_id>
+        <sys_metadata>d6e5551c47301210079550fe316d4387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1527610_hrm_hr_tickets</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_parent display_value="">6a921dd447301210079550fe316d43ec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_scope_delete display_value="">63c9ec4f11c44c3faed35cbfcb714d81</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_d6e5551c47301210079550fe316d4387</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_d6e5551c47301210079550fe316d4387">91bbca2447b01210079550fe316d4393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:24:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

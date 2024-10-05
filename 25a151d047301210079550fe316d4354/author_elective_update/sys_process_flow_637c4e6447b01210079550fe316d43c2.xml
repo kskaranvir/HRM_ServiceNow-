@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1527610_hrm_hr_tickets">state=Reopened^EQ<item display_value="Reopened" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Reopened"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Reopened</label>
+        <name>Reopened</name>
+        <order>8</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 06:57:11</sys_created_on>
+        <sys_id>637c4e6447b01210079550fe316d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reopened</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_process_flow_637c4e6447b01210079550fe316d43c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 06:57:11</sys_updated_on>
+        <table>x_1527610_hrm_hr_tickets</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HRM">25a151d047301210079550fe316d4354</application>
+        <file_path/>
+        <instance_id>889a0239dba6fd5c39639027c59619a8</instance_id>
+        <instance_name>dev214635</instance_name>
+        <name>sys_process_flow_637c4e6447b01210079550fe316d43c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1527610_hrm_hr_tickets">state=Reopened^EQ<item display_value="Reopened" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Reopened"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Reopened</label><name>Reopened</name><order>8</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-19 06:57:11</sys_created_on><sys_id>637c4e6447b01210079550fe316d43c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reopened</sys_name><sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package><sys_policy/><sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope><sys_update_name>sys_process_flow_637c4e6447b01210079550fe316d43c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-19 06:57:11</sys_updated_on><table>x_1527610_hrm_hr_tickets</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>1712980743</payload_hash>
+        <record_name>Reopened</record_name>
+        <reverted_from/>
+        <source>21a151d047301210079550fe316d4358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 06:57:11</sys_created_on>
+        <sys_id>a29cc66447b01210079550fe316d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19209120eb90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 06:57:11</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>a69cc66420b012100da1afd773921ee5</update_guid>
+        <update_guid_history>a69cc66420b012100da1afd773921ee5:1712980743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:24:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>14e45498f0ab4066877d2cd655e56f41</sys_id>
+        <sys_metadata>637c4e6447b01210079550fe316d43c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reopened</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_scope_delete display_value="">63c9ec4f11c44c3faed35cbfcb714d81</sys_scope_delete>
+        <sys_update_name>sys_process_flow_637c4e6447b01210079550fe316d43c2</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_637c4e6447b01210079550fe316d43c2">a29cc66447b01210079550fe316d43e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:24:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

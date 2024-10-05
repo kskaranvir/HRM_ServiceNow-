@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1527610_hrm.hrm_tickets_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>hrm_tickets_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 05:27:19</sys_created_on>
+        <sys_id>4ca14bf447f05610079550fe316d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1527610_hrm.hrm_tickets_user</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_user_role_4ca14bf447f05610079550fe316d43e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 05:27:19</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HRM">25a151d047301210079550fe316d4354</application>
+        <file_path/>
+        <instance_id>889a0239dba6fd5c39639027c59619a8</instance_id>
+        <instance_name>dev214635</instance_name>
+        <name>sys_user_role_4ca14bf447f05610079550fe316d43e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1527610_hrm.hrm_tickets_user</name><scoped_admin>false</scoped_admin><suffix>hrm_tickets_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-20 05:27:19</sys_created_on><sys_id>4ca14bf447f05610079550fe316d43e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1527610_hrm.hrm_tickets_user</sys_name><sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package><sys_policy/><sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope><sys_update_name>sys_user_role_4ca14bf447f05610079550fe316d43e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-20 05:27:19</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>845783146</payload_hash>
+        <record_name>x_1527610_hrm.hrm_tickets_user</record_name>
+        <reverted_from/>
+        <source>21a151d047301210079550fe316d4358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 05:27:19</sys_created_on>
+        <sys_id>88a14bf447f05610079550fe316d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1920de626290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 05:27:19</sys_updated_on>
+        <type>Role</type>
+        <update_guid>8ca14bf471f056108f23f0806e5440e6</update_guid>
+        <update_guid_history>8ca14bf471f056108f23f0806e5440e6:845783146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1527610_hrm.hrm_tickets_user">f2caa310c38d1210fef230ec050131a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:25:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>3e35ee7fd94141189fb95cfe79e40964</sys_id>
+        <sys_metadata>4ca14bf447f05610079550fe316d43e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1527610_hrm.hrm_tickets_user</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_scope_delete display_value="">63c9ec4f11c44c3faed35cbfcb714d81</sys_scope_delete>
+        <sys_update_name>sys_user_role_4ca14bf447f05610079550fe316d43e2</sys_update_name>
+        <sys_update_version display_value="sys_user_role_4ca14bf447f05610079550fe316d43e2">88a14bf447f05610079550fe316d43e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:25:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

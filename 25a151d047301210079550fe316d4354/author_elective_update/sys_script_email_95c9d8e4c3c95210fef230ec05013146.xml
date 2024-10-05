@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>accept_reject</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+    var action = event.action; 
+    var ticketSysId = current.sys_id; 
+    
+    var gr = new GlideRecord('Email [x_1527610_hrm_hrm_tickets]');
+    if (gr.get(ticketSysId)) {
+        if (action === 'Accept') {
+            gr.state = 'Closed'; 
+
+        } else if (action === 'reject') {
+            gr.state = 'Assigned'; 
+        }
+        gr.update(); 
+    }
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 09:00:43</sys_created_on>
+        <sys_id>95c9d8e4c3c95210fef230ec05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept_reject</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_script_email_95c9d8e4c3c95210fef230ec05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 09:00:43</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HRM">25a151d047301210079550fe316d4354</application>
+        <file_path/>
+        <instance_id>889a0239dba6fd5c39639027c59619a8</instance_id>
+        <instance_name>dev214635</instance_name>
+        <name>sys_script_email_95c9d8e4c3c95210fef230ec05013146</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;accept_reject&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(current, template, email, email_action, event) {
+    var action = event.action; 
+    var ticketSysId = current.sys_id; 
+    
+    var gr = new GlideRecord('Email [x_1527610_hrm_hrm_tickets]');
+    if (gr.get(ticketSysId)) {
+        if (action === 'Accept') {
+            gr.state = 'Closed'; 
+
+        } else if (action === 'reject') {
+            gr.state = 'Assigned'; 
+        }
+        gr.update(); 
+    }
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-01 09:00:43&lt;/sys_created_on&gt;&lt;sys_id&gt;95c9d8e4c3c95210fef230ec05013146&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;accept_reject&lt;/sys_name&gt;&lt;sys_package display_value="HRM" source="x_1527610_hrm"&gt;25a151d047301210079550fe316d4354&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HRM"&gt;25a151d047301210079550fe316d4354&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_95c9d8e4c3c95210fef230ec05013146&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-01 09:00:43&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2136777181</payload_hash>
+        <record_name>accept_reject</record_name>
+        <reverted_from/>
+        <source>21a151d047301210079550fe316d4358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 09:00:43</sys_created_on>
+        <sys_id>89fb9468c3c95210fef230ec05013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192474f77dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 09:00:43</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>8dfb9468c7c95210d9bbe90f2c60852f</update_guid>
+        <update_guid_history>8dfb9468c7c95210d9bbe90f2c60852f:-2136777181</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 09:20:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>23b629a7c5e847608cbed6f4a337de40</sys_id>
+        <sys_metadata>95c9d8e4c3c95210fef230ec05013146</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept_reject</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_scope_delete display_value="">63c9ec4f11c44c3faed35cbfcb714d81</sys_scope_delete>
+        <sys_update_name>sys_script_email_95c9d8e4c3c95210fef230ec05013146</sys_update_name>
+        <sys_update_version display_value="sys_script_email_95c9d8e4c3c95210fef230ec05013146">89fb9468c3c95210fef230ec05013130</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 09:20:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

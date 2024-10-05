@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1527610_hrm_lookuptablefinal">
+    <x_1527610_hrm_lookuptablefinal action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assignment_group display_value="Capacity Mgmt" name="Capacity Mgmt">aaccc971c0a8001500fe1ff4302de101</assignment_group>
+        <category>HR Request</category>
+        <order>100</order>
+        <sub_category>Onboarding</sub_category>
+        <sys_class_name>x_1527610_hrm_lookuptablefinal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 08:38:45</sys_created_on>
+        <sys_id>ad0a2689c3c91210fef230ec05013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>x_1527610_hrm_lookuptablefinal_ad0a2689c3c91210fef230ec05013159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 08:38:45</sys_updated_on>
+    </x_1527610_hrm_lookuptablefinal>
+</record_update>

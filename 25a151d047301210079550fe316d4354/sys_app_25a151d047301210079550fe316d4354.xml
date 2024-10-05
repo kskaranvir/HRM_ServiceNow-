@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>DS</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>a6a1dd9047301210079550fe316d4395</logo>
+        <menu/>
+        <name>HRM</name>
+        <package_json/>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_1527610_hrm</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>The application automates and manages HR tasks efficiently.</short_description>
+        <source>x_1527610_hrm</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:01:07</sys_created_on>
+        <sys_id>25a151d047301210079550fe316d4354</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:01:12</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=25a151d047301210079550fe316d4354"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>HRM.png</file_name>
+        <hash>9abb3702d3ff28aca5ed47bc98ba34005e5851f69f193667398d8d6a7caca705</hash>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>1689</size_bytes>
+        <size_compressed>1684</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:01:12</sys_created_on>
+        <sys_id>a6a1dd9047301210079550fe316d4395</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:01:12</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>25a151d047301210079550fe316d4354</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="HRM.png" sys_id="a6a1dd9047301210079550fe316d4395">a6a1dd9047301210079550fe316d4395</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:01:12</sys_created_on>
+        <sys_id>e6a1dd9047301210079550fe316d4395</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2232</length>
+        <position>1</position>
+        <sys_attachment display_value="HRM.png" sys_id="a6a1dd9047301210079550fe316d4395">a6a1dd9047301210079550fe316d4395</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:01:12</sys_created_on>
+        <sys_id>6aa1dd9047301210079550fe316d4395</sys_id>
+    </sys_attachment_doc>
+</record_update>

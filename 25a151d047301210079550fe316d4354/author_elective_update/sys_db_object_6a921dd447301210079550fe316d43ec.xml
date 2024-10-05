@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>HR Tickets</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1527610_hrm_hr_tickets</name>
+        <number_ref display_value="HRM">b2925dd447301210079550fe316d4321</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:05:18</sys_created_on>
+        <sys_id>6a921dd447301210079550fe316d43ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR Tickets</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_db_object_6a921dd447301210079550fe316d43ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:37:43</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HRM">25a151d047301210079550fe316d4354</application>
+        <file_path/>
+        <instance_id>889a0239dba6fd5c39639027c59619a8</instance_id>
+        <instance_name>dev214635</instance_name>
+        <name>sys_db_object_6a921dd447301210079550fe316d43ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>HR Tickets</label><live_feed_enabled>false</live_feed_enabled><name>x_1527610_hrm_hr_tickets</name><number_ref display_value="HRM">b2925dd447301210079550fe316d4321</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 08:05:18</sys_created_on><sys_id>6a921dd447301210079550fe316d43ec</sys_id><sys_mod_count>2</sys_mod_count><sys_name>HR Tickets</sys_name><sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package><sys_policy/><sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope><sys_update_name>sys_db_object_6a921dd447301210079550fe316d43ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 09:37:43</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>987566805</payload_hash>
+        <record_name>HR Tickets</record_name>
+        <reverted_from/>
+        <source>21a151d047301210079550fe316d4358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:37:43</sys_created_on>
+        <sys_id>68c7e15c47f01210079550fe316d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192047eacd10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:37:43</sys_updated_on>
+        <type>Table</type>
+        <update_guid>20c7e15c41f01210779802871f791fb6</update_guid>
+        <update_guid_history>20c7e15c41f01210779802871f791fb6:987566805,3e925dd42230121042666fc2013f8c1f:1519507377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:24:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1d341d358ddd49f38bc088e10e8c05c1</sys_id>
+        <sys_metadata>6a921dd447301210079550fe316d43ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Tickets</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_scope_delete display_value="">63c9ec4f11c44c3faed35cbfcb714d81</sys_scope_delete>
+        <sys_update_name>sys_db_object_6a921dd447301210079550fe316d43ec</sys_update_name>
+        <sys_update_version display_value="sys_db_object_6a921dd447301210079550fe316d43ec">68c7e15c47f01210079550fe316d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:24:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

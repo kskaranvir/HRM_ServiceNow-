@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_2datalookup">
+    <u_2datalookup action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sys_class_name>u_2datalookup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 10:00:16</sys_created_on>
+        <sys_id>8689282cc38d5210fef230ec050131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>u_2datalookup_8689282cc38d5210fef230ec050131b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 10:00:16</sys_updated_on>
+        <u_assignment display_value="App Engine Studio Users" name="App Engine Studio Users">72910dd8779050108a370870a81061a9</u_assignment>
+        <u_category>HR Request</u_category>
+        <u_subcategory>Onboarding</u_subcategory>
+    </u_2datalookup>
+</record_update>

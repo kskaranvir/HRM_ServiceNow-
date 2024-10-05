@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_user_has_role" version="2" view="RPTdd480e4dc3011210fef230ec05013141">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>95480ecdc3011210fef230ec050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.email</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>19480ecdc3011210fef230ec050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.active</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>99480ecdc3011210fef230ec050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>role</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>1d480ecdc3011210fef230ec050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>9d480ecdc3011210fef230ec050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inherited</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>11480ecdc3011210fef230ec050131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inh_count</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="NULL" relationship="NULL" sys_domain="global" view="d9480ecdc3011210fef230ec050131ed">1d480ecdc3011210fef230ec050131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_id>91480ecdc3011210fef230ec050131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_user_has_role</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 06:10:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d480ecdc3011210fef230ec050131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user_has_role</sys_name>
+            <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+            <sys_update_name>sys_ui_list_sys_user_has_role_RPTdd480e4dc3011210fef230ec05013141</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 06:10:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptdd480e4dc3011210fef230ec05013141" name="RPTdd480e4dc3011210fef230ec05013141">d9480ecdc3011210fef230ec050131ed</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
