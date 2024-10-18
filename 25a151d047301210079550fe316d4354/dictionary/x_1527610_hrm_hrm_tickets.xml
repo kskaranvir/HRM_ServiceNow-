@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="email_client=true" audit="true" db_object_id="f010c3b447f05610079550fe316d43b6" extends="task" label="Email" max_length="40" name="x_1527610_hrm_hrm_tickets" type="collection">
-        <element label="Ticket Summary" max_length="40" name="ticket_summary" type="string"/>
+        <element label="Ticket Summary" mandatory="true" max_length="40" name="ticket_summary" type="string"/>
+        <element label="Reopened date" max_length="40" name="reopened_date" read_only="true" type="glide_date_time"/>
         <element choice="1" choice_field="category" choice_table="x_1527610_hrm_lookuptablefinal" label="Category" max_length="40" name="category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Leave Request" sequence="1" value="Leave Request"/>
-                <element inactive_on_update="false" label="Payroll Issue" sequence="2" value="Payroll Issue"/>
+                <element dependent_value="Check" inactive_on_update="false" label="Payroll Issue" sequence="2" value="Payroll Issue"/>
                 <element inactive_on_update="false" label="HR Request" sequence="0" value="HR Request"/>
             </choice>
         </element>
+        <element label="Reopened by" max_length="40" name="reopened_by" read_only="true" reference="sys_user" type="reference"/>
         <element label="Ticket Details" max_length="40" name="ticket_details" type="string"/>
         <element label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
         <element choice="3" label="Severity" max_length="40" name="severity" type="choice">
@@ -18,18 +20,21 @@
                 <element inactive_on_update="false" label="Critical" sequence="0" value="Critical"/>
             </choice>
         </element>
-        <element label="Requested by" max_length="40" name="requested_by" reference="sys_user" type="reference"/>
-        <element label="First Assignee" max_length="40" name="first_assignee" type="string"/>
-        <element label="FeedBack Rating" max_length="40" name="feedback_rating" type="string"/>
-        <element label="Requested For" max_length="40" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Requested by" mandatory="true" max_length="40" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Reopen Count" max_length="255" name="reopen_count" read_only="true" type="integer"/>
+        <element active="false" label="First Assignee" max_length="40" name="first_assignee" type="string"/>
+        <element label="FeedBack" max_length="40" name="feedback_rating" type="string"/>
+        <element label="Requested For" mandatory="true" max_length="40" name="requested_for" reference="sys_user" type="reference"/>
         <element choice="1" dependent="category" dependent_on_field="category" label="Sub Category" max_length="40" name="sub_category" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="Leave Request" inactive_on_update="false" label="Casual Leave" sequence="4" value="Casual Leave"/>
-                <element dependent_value="Leave Request" inactive_on_update="false" label="Sick Leave" sequence="3" value="Sick Leave"/>
+                <element dependent_value="Leaves" inactive_on_update="false" label="Sick Leave" sequence="3" value="Sick Leave"/>
                 <element dependent_value="Leave Request" inactive_on_update="false" label="Earned Leave" sequence="5" value="Earned Leave"/>
-                <element dependent_value="Payroll Issue" inactive_on_update="false" label="Salary Discrepancy" sequence="6" value="Salary Discre"/>
+                <element dependent_value="Leave Request" inactive_on_update="false" label="testChoice" sequence="10" value="testChoice"/>
                 <element dependent_value="Payroll Issue" inactive_on_update="false" label="Benefits Deductions" sequence="8" value="Benefits Deduction"/>
+                <element dependent_value="Payroll Issue" inactive_on_update="false" label="Salary Discrepancy" sequence="6" value="Salary Discre"/>
                 <element dependent_value="Payroll Issue" inactive_on_update="false" label="Tax Queries" sequence="7" value="Tax Queries"/>
+                <element dependent_value="HR Request" inactive_on_update="false" label="testChoice" sequence="9" value="testChoice"/>
                 <element dependent_value="HR Request" inactive_on_update="false" label="Policy Questions" sequence="2" value="Policy Questions"/>
                 <element dependent_value="HR Request" inactive_on_update="false" label="Onboarding" sequence="0" value="Onboarding"/>
                 <element dependent_value="HR Request" inactive_on_update="false" label="Offboarding" sequence="1" value="Offboarding"/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>resolution_notes</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 19:17:01</sys_created_on>
+        <sys_id>3f52cdfdc35d5a10fef230ec05013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resolution_notes</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3f52cdfdc35d5a10fef230ec05013126</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 19:17:01</sys_updated_on>
+        <table>x_1527610_hrm_hrm_tickets</table>
+        <ui_policy display_value="Fields ReadOnly when closed">6ca93071c3995a10fef230ec0501310c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3f52cdfdc35d5a10fef230ec05013126"/>
+</record_update>

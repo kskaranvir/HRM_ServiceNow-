@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1527610_hrm_TicetAcceptPage.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<script>
+   // Retrieve the status parameter from the URL
+   var status = g_request.getParameter('status');
+   var ticketNumber = g_request.getParameter('ticket_number');
+</script>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            background-color: #4CAF50;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .back-btn {
+            background-color: #555;
+        }
+        .back-btn:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Success</h1>
+        <p>Ticket <strong>${ticketNumber}</strong> has been accepted successfully.</p>
+        <button class="btn" onclick="window.location.href='/';">Go Back</button>
+    </div>
+</body>
+</html>
+
+</j:jelly>]]></html>
+        <name>TicetAcceptPage</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 17:38:23</sys_created_on>
+        <sys_id>46abc16ec3c99a50fef230ec05013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TicetAcceptPage</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_ui_page_46abc16ec3c99a50fef230ec05013142</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 17:38:23</sys_updated_on>
+    </sys_ui_page>
+</record_update>

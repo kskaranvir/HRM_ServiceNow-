@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" db_object_id="79c5628dc3491210fef230ec05013198" extends="dl_matcher" label="lookupTableFinal" max_length="40" name="x_1527610_hrm_lookuptablefinal" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="sub_category" choice_table="x_1527610_hrm_lookuptablefinal" dependent="category" dependent_on_field="category" label="Sub Category" max_length="40" name="sub_category" type="choice" use_dependent_field="true">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" dependent="category" dependent_on_field="category" label="Sub Category" max_length="40" name="sub_category" type="choice" use_dependent_field="true">
             <choice>
+                <element dependent_value="Leaves" inactive_on_update="false" label="Sick Leave" sequence="3" value="Sick Leave"/>
+                <element dependent_value="Check" inactive_on_update="false" label="Salary Discrepancy" sequence="4" value="Salary Discrepancy"/>
+                <element dependent_value="Check" inactive_on_update="false" label="choice" sequence="2" value="choice"/>
                 <element dependent_value="Leaves" inactive_on_update="false" label="Choice 1" sequence="1" value="Choice 1"/>
                 <element dependent_value="HR Request" inactive_on_update="false" label="Onboarding" sequence="0" value="Onboarding"/>
             </choice>
@@ -10,8 +13,8 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Category" max_length="40" name="category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="HR Request" sequence="0" value="HR Request"/>
-                <element inactive_on_update="false" label="Leaves" sequence="1" value="Leaves"/>
-                <element inactive_on_update="false" label="Check" sequence="2" value="Check"/>
+                <element inactive_on_update="false" label="Leave Request" sequence="1" value="Leaves"/>
+                <element dependent_value="Check" inactive="true" inactive_on_update="true" label="Payroll Issue" sequence="2" value="Check"/>
             </choice>
         </element>
         <index name="index">

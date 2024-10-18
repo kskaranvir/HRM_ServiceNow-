@@ -73,7 +73,7 @@
             <value>Policy Questions</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Leave Request</dependent_value>
+            <dependent_value>Leaves</dependent_value>
             <element>sub_category</element>
             <hint/>
             <inactive>false</inactive>
@@ -86,9 +86,9 @@
             <sys_created_on>2024-09-20 10:06:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>14</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 10:06:34</sys_updated_on>
+            <sys_updated_on>2024-10-16 17:37:31</sys_updated_on>
             <value>Sick Leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -105,9 +105,9 @@
             <sys_created_on>2024-09-20 10:06:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>13</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 10:06:34</sys_updated_on>
+            <sys_updated_on>2024-10-16 17:37:32</sys_updated_on>
             <value>Casual Leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -124,9 +124,9 @@
             <sys_created_on>2024-09-20 10:06:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>13</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 10:06:34</sys_updated_on>
+            <sys_updated_on>2024-10-16 17:37:32</sys_updated_on>
             <value>Earned Leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -140,12 +140,12 @@
             <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-20 10:06:34</sys_created_on>
+            <sys_created_on>2024-10-07 07:15:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 10:06:35</sys_updated_on>
+            <sys_updated_on>2024-10-16 17:37:32</sys_updated_on>
             <value>Salary Discre</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -162,9 +162,9 @@
             <sys_created_on>2024-09-20 10:06:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>13</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 10:06:35</sys_updated_on>
+            <sys_updated_on>2024-10-16 17:37:32</sys_updated_on>
             <value>Tax Queries</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -181,10 +181,48 @@
             <sys_created_on>2024-09-20 10:06:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>13</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 10:06:35</sys_updated_on>
+            <sys_updated_on>2024-10-16 17:37:32</sys_updated_on>
             <value>Benefits Deduction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>HR Request</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>testChoice</label>
+            <language>en</language>
+            <name>x_1527610_hrm_hrm_tickets</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 06:15:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 17:37:31</sys_updated_on>
+            <value>testChoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave Request</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>testChoice</label>
+            <language>en</language>
+            <name>x_1527610_hrm_hrm_tickets</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 06:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 17:37:32</sys_updated_on>
+            <value>testChoice</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -38,12 +38,12 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${requested_by},</p>
-<p>Your ticket with number <strong>${number}</strong> has been resolved.</p>
-<p>If you are satisfied with the resolution, please click the button below:</p>
-<div style="margin: 20px 0;"><a style="background-color: #4caf50; /* green */               color: white; padding: 12px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; font-weight: bold; border: none;" href="https://dev214635.service-now.com//api/x_1527610_hrm/ticket_action_api?ticket_number=${number}&amp;action=accept">Accept</a> <a style="background-color: #f44336; /* red */               color: white; padding: 12px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; font-weight: bold; border: none; margin-left: 10px;" href="https://dev214635.service-now.com//api/x_1527610_hrm/ticket_action_api?ticket_number=${number}&amp;action=reject">Reject</a></div>
-<p>If you have any further concerns, please do not hesitate to reach out.</p>
-<p>Thank you!</p>]]></message_html>
+        <message_html><![CDATA[<p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6;">Dear ${requested_by},</p>
+<p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6;">Your ticket with number <strong>${number}</strong> has been resolved.</p>
+<p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6;">If you are satisfied with the resolution, please click one of the buttons below:</p>
+<div style="margin: 30px 0; text-align: center;"><a style="background-color: #28a745; /* green */        color: white; padding: 14px 28px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold; font-size: 16px; margin-right: 12px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); transition: all 0.3s ease; font-family: Arial, sans-serif;" href="https://dev214635.service-now.com/api/x_1527610_hrm/ticket_action_api?ticket_number=${number}&amp;action=accept"> Accept </a> <a style="background-color: #dc3545; /* red */        color: white; padding: 14px 28px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); transition: all 0.3s ease; font-family: Arial, sans-serif;" href="https://dev214635.service-now.com/api/x_1527610_hrm/ticket_action_api?ticket_number=${number}&amp;action=reject"> Reject </a></div>
+<p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6;">If you have any further concerns, please do not hesitate to reach out.</p>
+<p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6;">Thank you!</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Ticket Resolution</name>
@@ -65,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>41a5c0a0c3055210fef230ec050131bd</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Ticket Resolution</sys_name>
         <sys_overrides/>
         <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
@@ -73,7 +73,7 @@
         <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
         <sys_update_name>sysevent_email_action_41a5c0a0c3055210fef230ec050131bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 09:49:19</sys_updated_on>
+        <sys_updated_on>2024-10-16 19:07:09</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

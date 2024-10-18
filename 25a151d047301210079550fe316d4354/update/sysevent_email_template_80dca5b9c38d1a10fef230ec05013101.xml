@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_1527610_hrm_hrm_tickets</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>&lt;p&gt;Dear ${requested_by},&lt;/p&gt;<br />&lt;p&gt;Your ticket with the number &lt;strong&gt;${number}&lt;/strong&gt; has been updated.&lt;/p&gt;<br />&lt;p&gt;&lt;strong&gt;Ticket Summary:&lt;/strong&gt; ${ticket_summary}&lt;/p&gt;<br />&lt;p&gt;&lt;strong&gt;Ticket Details:&lt;/strong&gt; ${ticket_details}&lt;/p&gt;<br />&lt;p&gt;The current status of the ticket is: &lt;strong&gt;${state}&lt;/strong&gt;.&lt;/p&gt;</p>
+<p>&lt;p&gt;If you have any further questions or concerns, feel free to respond to this email.&lt;/p&gt;<br />&lt;p&gt;Thank you,&lt;/p&gt;<br />&lt;p&gt;&lt;strong&gt;${assigned_to}&lt;/strong&gt;&lt;br&gt;<br />Ticket Resolver&lt;br&gt;<br />${assignment_group}&lt;/p&gt;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HRM Ticket Template</name>
+        <sms_alternate/>
+        <subject>Ticket [${number}] - Update from Resolver</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-05 12:09:07</sys_created_on>
+        <sys_id>80dca5b9c38d1a10fef230ec05013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HRM Ticket Template</sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sysevent_email_template_80dca5b9c38d1a10fef230ec05013101</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-05 12:09:07</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

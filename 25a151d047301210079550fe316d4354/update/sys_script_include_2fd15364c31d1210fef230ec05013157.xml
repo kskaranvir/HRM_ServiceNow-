@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1527610_hrm.Ticket Action Include </api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Ticket Action Include </name>
+        <script><![CDATA[var TicketActionInclude  = Class.create();
+TicketActionInclude .prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	performAction: function(ticket_number, action){
+		var gr = new GlideRecord('x_1527610_hrm_hrm_tickets');
+
+    gr.addQuery('number', ticket_number);
+    gr.query();
+
+    if(gr.next()){
+        var acceptPageUrl = 'https://dev214635.service-now.com/x_1527610_hrm_TicketAcceptPage.do';
+		var rejectPageUrl = 'https://dev214635.service-now.com/x_1527610_hrm_TicketRejectPage.do';
+        if (action == 'accept') {
+            gr.state = 3; 
+            gr.closed_by = gs.getUserID(); 
+            gr.closed_date = new GlideDateTime(); 
+            gr.update(); 
+        } else if (action == 'reject') {
+            gr.state = 11;
+            if(gr.reopen_count == 123456){
+                gr.reopen_count = 1;
+            } else {
+                gr.reopen_count = gr.reopen_count + 1;
+            }
+            gr.reopened_by = gs.getUserID(); 
+            gr.reopened_date = new GlideDateTime(); 
+            gr.update();
+        }
+		if (action == 'accept') {
+			response.setStatus(302); 
+			response.setHeader('Location', acceptPageUrl);
+		}
+		else{
+			response.setStatus(302); 
+			response.setHeader('Location', rejectPageUrl);
+		}
+    }
+	},
+    type: 'Ticket Action Include'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 08:39:16</sys_created_on>
+        <sys_id>2fd15364c31d1210fef230ec05013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ticket Action Include </sys_name>
+        <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
+        <sys_update_name>sys_script_include_2fd15364c31d1210fef230ec05013157</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 08:39:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

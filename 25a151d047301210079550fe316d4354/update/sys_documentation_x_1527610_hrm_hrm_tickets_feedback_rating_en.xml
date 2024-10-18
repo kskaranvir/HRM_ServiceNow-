@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="feedback_rating" label="FeedBack Rating" language="en" table="x_1527610_hrm_hrm_tickets">
+    <sys_documentation element="feedback_rating" label="FeedBack" language="en" table="x_1527610_hrm_hrm_tickets">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>feedback_rating</element>
             <help/>
             <hint/>
-            <label>FeedBack Rating</label>
+            <label>FeedBack</label>
             <language>en</language>
             <name>x_1527610_hrm_hrm_tickets</name>
-            <plural>FeedBack Ratings</plural>
+            <plural>FeedBacks</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-20 05:27:22</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>FeedBack Rating</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>FeedBack</sys_name>
             <sys_package display_value="HRM" source="x_1527610_hrm">25a151d047301210079550fe316d4354</sys_package>
             <sys_policy/>
             <sys_scope display_value="HRM">25a151d047301210079550fe316d4354</sys_scope>
             <sys_update_name>sys_documentation_x_1527610_hrm_hrm_tickets_feedback_rating_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-20 05:27:22</sys_updated_on>
+            <sys_updated_on>2024-10-17 19:26:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
